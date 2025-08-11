@@ -1,10 +1,8 @@
-import React from 'react'
-
-const Footer = () => {
+const Footer = ({length = 0}) => {
     const today = new Date();
   return (
     <footer>
-        <p>Copy Right &copy; {today.getFullYear()}</p>
+        <p>{length} List {length === 1 ? 'Item' : 'Items'}</p>
     </footer>
   )
 }
