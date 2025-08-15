@@ -11,7 +11,7 @@ const Content = ({items, handelCheck, handelDelete}) => {
           handelDelete={handelDelete}
         />
       ) : (
-        <p style={{marginTop: '2rem'}}>asdasdasd</p>
+        <p style={{marginTop: '2rem'}}>{'Empty :('}</p>
       )}
     </main>
   );
